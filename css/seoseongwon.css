@@ -1,0 +1,284 @@
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 103px;
+	border: solid 1px #E2E2E2;
+	background-color: #ffffff;
+	z-index: 10;
+}
+
+.contents {
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+body {
+	font-family: Arial;
+	font-size: 12px;
+	color: #7d7d7d;
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+body > div > div > img {
+	margin-top: 10px;
+	float: left;
+}
+
+.breadcrumb {
+	font-family: Arial;
+	font-size: 12px;
+	background-color: #ffffff;
+	margin-top: 62px;
+	float: right;
+}
+
+h4 {
+	font-family: Dotum;
+	color: #bfbfbf;
+}
+
+a:hover, a:focus {
+	color: #39d1b4;
+	font-weight: bold;
+}
+
+div > div > ol > li > a {
+	color: #bfbfbf;
+	font-weight: bold;
+}
+
+
+.main .contents > div {
+	height: 640px;
+	text-align: center;
+/*	background-color: #ffffff;*/
+}
+
+.top > img {
+	margin-top : 100px;
+}
+
+.about {
+	margin: 0 auto;
+	margin-top: 100px;
+	height: 400px;
+}
+
+.about > img {
+	margin-bottom: 50px;
+
+}
+
+.table-striped {
+	margin: 0 auto;
+	width: 300px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > th {
+	background-color: transparent;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td {
+	background-color: transparent;
+
+}
+
+
+.sflife {
+	margin: 0 auto;
+	margin-top: 100px;
+	height: 400px;
+}
+
+.dl-horizontal {
+	margin: 0 auto;
+	float: left;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.dl-horizontal dt {
+	color: #39d1b4 ;
+}
+
+.dl-horizontal dd {
+	text-align: left;
+	color: gray;
+}
+
+.about > img:last-child {
+	margin: 20px;
+}
+
+.porfolio {
+	margin: 0 auto;
+	margin-top: 100px;
+	height: 400px;
+}
+
+.portfolio > img {
+	margin-bottom: 50px;
+}
+
+.bg-primary {
+	background-color: transparent;
+	border: #d9e2e0 solid;
+}
+
+#stress {
+	color: #39d1b4;
+}
+
+.item {
+	margin: 0 auto;
+}
+
+.item > img{
+	float: left;
+}
+
+#carousel-example-generic {
+	width : 900px;
+	height: 424px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.vision {
+	margin: 0 auto;
+}
+
+.vision table {
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #37d1b5;
+}
+
+
+.contact {
+	font-color: #E2E2E2;
+	margin: 0 auto;
+	margin-top: 200px;
+	height: 400px;
+}
+
+.contact > img {
+	margin-bottom: 50px;
+}
+
+#contact1 {
+	float: left;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	background-color: #f2f2f2;
+	margin-left: 180px;
+	border-radius: 100%;
+	text-align: center;
+	}
+
+#contact1 > a > img {
+	margin-top: 60px;
+}
+
+#contact2 {
+	float: left;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	background-color: #d9e2e0;
+	margin-left: 100px;
+	border-radius: 100%;
+	text-align: center;
+	}
+
+#contact2 > a > img {
+	margin-top: 60px;
+}	
+
+#contact3 {
+	float: left;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	background-color: #def3ef;
+	margin-left: 100px;
+	border-radius: 100%;
+	text-align: center;
+	}
+
+#contact3 > a > img {
+	margin-top: 60px;
+}	
+
+#floatdiv { 
+	position:fixed; _position:absolute; _z-index:-1;
+	width:170px;
+	overflow:hidden;
+	left:0px; 
+	top:60px; 
+	background-color: transparent;
+	margin:0;
+	padding:0;
+}
+
+#floatdiv ul { list-style: none; }
+#floatdiv li { margin-bottom: 2px; text-align: center; }
+#floatdiv a { color: #5D5D5D; border: 0; text-decoration: none; display: block; }
+#floatdiv a:hover, #floatdiv .menu { background-color: #5D5D5D; color: #fff; }
+#floatdiv .menu, #floatdiv .last { margin-bottom: 0px; }
+
+.footer {
+	position: fixed;
+/*	top: 847px;*/
+	width : 100%;
+	height: 103px;
+	text-align: center;
+	border: solid 1px #E2E2E2;
+	background-color: #ffffff;
+	bottom: 0px;
+}
+
+#footer_address {
+	font-family: Arial;
+	color: #39d1b4;
+	margin-top: 50px;
+}
+
+#aboutpage {
+	margin: 0 auto;
+	height: 120px;
+}
+
+#visionpage {
+	margin: 0 auto;
+	height: 200px;
+}
+
+#designedbyswpage {
+	margin: 0 auto;
+	height: 200px;
+}
+
+#contactpage {
+	margin: 0 auto;
+	margin-top: 300px;
+	height: 120px;
+}
+
+.backtotop {
+	height: 120px;
+	margin-bottom: 103px;
+}
+/*#adsideWrapper {
+	position: fixed;
+	position: absolute;
+	z-index:-1;
+	overflow:hidden;
+	left:20%
+	top:50%;
+}
+*/
